@@ -13,7 +13,7 @@
 
 - **Suhtluskanal:** Google Workspace Chat — [Grupitöö G4]
 - **GitHub repo:** [GitHub repo](https://github.com/vvaiko1/UrbanStyle-ladu)
-- **Supabase:** urbanstyle-[meeskonna-nimi]
+- **Supabase:** [Supabase](https://supabase.com/dashboard/project/isbuycybplhyrfymsnkb)
 - **NotebookLM:** [Notebook](https://notebook.google.com/notebook/89eab113-f0af-466b-8315-6c751d327458)
 
 ## Kokkulepped
