@@ -12,9 +12,9 @@
 ## Ühised tööriistad
 
 - **Suhtluskanal:** Google Workspace Chat — [grupi nimi]
-- **GitHub repo:** https://github.com/[sinu-kasutajanimi]/[repo-nimi]
-- **Supabase:** urbanstyle-datadriven
-- **NotebookLM:** [jagatud notebook'i link]
+- **GitHub repo:** [https://github.com/[sinu-kasutajanimi]/[repo-nimi]](https://github.com/vvaiko1/UrbanStyle-ladu)
+- **Supabase:** urbanstyle-[meeskonna-nimi]
+- **NotebookLM:** [[jagatud notebook'i link]](https://notebook.google.com/notebook/89eab113-f0af-466b-8315-6c751d327458)
 
 ## Kokkulepped
 
