@@ -25,7 +25,7 @@
    Vaatame jooksvalt
 
 3. **Kuidas me jagame faile?**
-   Drive
+   Github; Google Drive
 
 ## Rollide rotatsioon
 
