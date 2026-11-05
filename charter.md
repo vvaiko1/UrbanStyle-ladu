@@ -4,10 +4,10 @@
 
 | # | Nimi | OS | Roll nädal 1 |
 |---|------|----|--------------|
-| 1 | Gertrud Kaupmees | Win | A: Data Extraction |
-| 2 | Vaiko Vainola | Win | B: Data Processing |
-| 3 | Sten Tomingas | Win | C: Visualization |
-| 4 | Erik Mölder | Win | D: Business Recommendation |
+| 1 | Gertrud Kaupmees | Win | A: NotebookLM |
+| 2 | Vaiko Vainola | Win | B: Github |
+| 3 | Sten Tomingas | Win | C: Supabase |
+| 4 | Erik Mölder | Win | D: Charter |
 
 ## Ühised tööriistad
 
