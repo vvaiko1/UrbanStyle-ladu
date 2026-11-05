@@ -29,7 +29,7 @@
 
 ## Rollide rotatsioon
 
-| Nädal | A: Data Extraction | B: Data Processing | C: Visualization | D: Business Recommendation |
+| Nädal | A: NotebookLM | B: Github | C: Supabase | D: Charter |
 |-------|--------------------|--------------------|------------------|----------------------------|
 | 1 | Gertrud | Vaiko | Sten | Erik |
 | 2 | Erik | Gertrud | Vaiko | Sten |
