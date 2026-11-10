@@ -41,7 +41,7 @@
 Kinnitame, et oleme kokkulepetega nõus:
 
 - [ ] Gertrud Kaupmees
-- [ ] Vaiko Vainola
+- [x] Vaiko Vainola
 - [ ] Sten Tomingas
 - [ ] Erik Mölder
 
