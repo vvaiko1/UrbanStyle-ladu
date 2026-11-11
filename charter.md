@@ -43,6 +43,6 @@ Kinnitame, et oleme kokkulepetega nõus:
 - [ ] Gertrud Kaupmees
 - [x] Vaiko Vainola
 - [ ] Sten Tomingas
-- [ ] Erik Mölder
+- [x ] Erik Mölder
 
 **Kuupäev:** 04.11.2026
