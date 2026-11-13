@@ -1,6 +1,6 @@
 # UrbanStyle-ladu -- UrbanStyle.ltd Andmemeeskond
 ## Meeskonnaliikmed
-| Nimi | Roll (Nädal 1) | OS |
+| Nimi | Roll (Nädal 0) | OS |
 |------|----------------|----|
 | Gertrud Kaupmees | A: NotebookLM | Win |
 | Vaiko Vainola | B: Github | Win |
