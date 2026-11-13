@@ -19,12 +19,12 @@ Iga meeskonnaliige uuris ühte andmedomeeni ja tulemused koondati üheks ülevaa
 
 ## Andmemaastik
 
-| Tabel | Read | Peamine leid |
-|-------|------|--------------|
-| **sales** (tehingud) | 15 234 | Ainult 10 118 unikaalset arvet – 5 116 rida (33,6%) on duplikaadid; 305 müüki summaga 0 või vähem |
-| **customers** | 3 150 | 12 linna; 130 potentsiaalset duplikaati; 380 kliendil puudub e-mail ja 1 260 kliendil (40%) lojaalsustase |
-| **products** | 362 | 5 kategooriat, hinnad 13.53–434.08 €; hinnad ja kategooriad kõigil olemas – kõige puhtam tabel |
-| **sales** (kanalid) | – | 2 kanalit (online, pood), 3 poodi (Tallinn, Tartu, Pärnu), 3 makseviisi; 5 204 tehingul puudub asukoht – kõik on online-ostud, seega see ei ole viga |
+| Tabel | Read | Veerud | Peamine leid |
+|-------|------|--------|--------------|
+| **sales** (tehingud) | 15 234 | 11 | Ainult 10 118 unikaalset arvet – 5 116 rida (33,6%) on duplikaadid; 305 müüki summaga 0 või vähem |
+| **customers** | 3 150 | 9 | 12 linna; 130 potentsiaalset duplikaati; 380 kliendil puudub e-mail ja 1 260 kliendil (40%) lojaalsustase |
+| **products** | 362 | 9 | 5 kategooriat, hinnad 13.53–434.08 €; hinnad ja kategooriad kõigil olemas – kõige puhtam tabel |
+| **sales** (kanalid) | 15 234 (sama tabel) | 3 uuritud | 2 kanalit (online, pood), 3 poodi (Tallinn, Tartu, Pärnu), 3 makseviisi; 5 204 tehingul puudub asukoht – kõik on online-ostud, seega see ei ole viga |
 
 ## Suurim üllatus
 
@@ -67,5 +67,9 @@ Teha detailsem süvaanalüüs ja andmete korrastamine, et vältida topeltinfot, 
 | Fail | Sisu |
 |------|------|
 | [week1_data_landscape.pptx](week1_data_landscape.pptx) | Meeskonna ühine slaid (demo jaoks) |
+| [Google Slides](https://docs.google.com/presentation/d/1cDonL61pHiuUrU8fz3REgoIoUOWszs03UYn5mlqV41A/edit) | Meeskonna ühine esitlus |
+| [GT week 1 customers tabel.sql](GT%20week%201%20customers%20tabel.sql) | Roll B – customers päringud (Gertrud Kaupmees) |
+| [week1_products_exploration.sql](week1_products_exploration.sql) | Roll C – products päringud (Vaiko Vainola) |
+| [sales_dimensions_explorer.sql](sales_dimensions_explorer.sql) | Roll D – kanalite päringud (Sten Tomingas) |
 
 Iga liikme individuaalsed päringud on tema isiklikus portfoolios.
