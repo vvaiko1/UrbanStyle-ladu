@@ -23,7 +23,7 @@ Iga meeskonnaliige uuris ühte andmedomeeni ja tulemused koondati üheks ülevaa
 |-------|------|--------|--------------|
 | **sales** (tehingud) | 15 234 | 11 | Ainult 10 118 unikaalset arvet – 5 116 rida (33,6%) on duplikaadid; 305 müüki summaga 0 või vähem |
 | **customers** | 3 150 | 9 | 12 linna; 130 potentsiaalset duplikaati; 380 kliendil puudub e-mail ja 1 260 kliendil (40%) lojaalsustase |
-| **products** | 362 | 9 | 5 kategooriat, hinnad 13.53–434.08 €; hinnad ja kategooriad kõigil olemas – kõige puhtam tabel |
+| **products** | 362 | 9 | 5 kategooriat, hinnad 13.53–434.08 €; hinnad ja kategooriad kõigil olemas – kõige puhtam tabel; 12 toodet topelt(ID 1351-1362) |
 | **sales** (kanalid) | 15 234 (sama tabel) | 3 uuritud | 2 kanalit (online, pood), 3 poodi (Tallinn, Tartu, Pärnu), 3 makseviisi; 5 204 tehingul puudub asukoht – kõik on online-ostud, seega see ei ole viga |
 
 ## Suurim üllatus
