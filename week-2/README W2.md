@@ -48,10 +48,7 @@ Korrastada müügi ja kliendiread.
 
 380 kliendil puudub e-mail ja 1 260 kliendil (40%) lojaalsustase, mis piirab turundust ja lojaalsusanalüüsi. 1 487 müügil (~10%) puudub kliendi ID, mistõttu neid ei saa kliendiga siduda.
 
-## Puuduvad andmed
-
 380 kliendi e-mail ja 1 487 külalisostu kliendi ID – SQL-iga neid taastada ei saa.
-
 
 - **Peamine järeldus:** Müügi ja klientide tabel vajavad korrigeerimist, et investorid ja juhtkond saaksid korrektsed sisendid äriliste otsuste tegemiseks.
 - **Mis otsus muutuks:** Andmete kvaliteedi parendamine on kriitilise tähtsusega järgneva kuu eelarve kujundamisel. 
