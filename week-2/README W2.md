@@ -43,7 +43,6 @@ Kolmandik käibest on duplikaadid: 4,37 M € → 2,91 M €.
 ## Soovitus Toomasele
 
 Korrastada müügi ja kliendiread. 
-Kõik test koopial.
 
 ## Puuduvad andmed
 
