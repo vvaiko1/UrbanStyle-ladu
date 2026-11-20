@@ -66,9 +66,9 @@ Kristi, meie tulemused muudavad meie järgmise kvartali eelarvet ja olemasolevad
 | Fail | Sisu |
 |------|------|
 | [[Google Slides](https://docs.google.com/presentation/d/1cDonL61pHiuUrU8fz3REgoIoUOWszs03UYn5mlqV41A/edit)](https://docs.google.com/presentation/d/1SqgwirUYRVrINoIISpwbw5F_c36T5BGmVnEWv5necPE/edit?slide=id.p1#slide=id.p1) | Meeskonna ühine esitlus |
-| [GT week 1 customers tabel.sql](GT%20week%201%20customers%20tabel.sql) | Roll A – müügiandmete puhastamine (Sten Tomingas) |
-| [week1_products_exploration.sql](week1_products_exploration.sql) | Roll B – kliendiandmete puhastamine (Vaiko Vainola) |
-| [sales_dimensions_explorer.sql](sales_dimensions_explorer.sql) | Roll C – tooteandmete analüüs (Gertrud Kaupmees) |
+| xxxxxxxxxxxxxxxx | Roll A – müügiandmete puhastamine (Sten Tomingas) |
+| xxxxxxxxxxxxxxxx | Roll B – kliendiandmete puhastamine (Vaiko Vainola) |
+| [[sales_dimensions_explorer.sql](sales_dimensions_explorer.sql)](https://github.com/gertrudkaupmees-lab/DACA-portfolio/blob/main/week-2/GT%20week%202%20products%20table) | Roll C – tooteandmete analüüs (Gertrud Kaupmees) |
 
 Iga liikme individuaalsed päringud on tema isiklikus portfoolios.
 
