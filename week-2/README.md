@@ -61,10 +61,10 @@ Kristi, meie tulemused muudavad meie järgmise kvartali eelarvet ja olemasolevad
 
 | Fail | Sisu |
 |------|------|
-| [[Google Slides](https://docs.google.com/presentation/d/1cDonL61pHiuUrU8fz3REgoIoUOWszs03UYn5mlqV41A/edit)](https://docs.google.com/presentation/d/1SqgwirUYRVrINoIISpwbw5F_c36T5BGmVnEWv5necPE/edit?slide=id.p1#slide=id.p1) | Meeskonna ühine esitlus |
+| [Google Slides](https://docs.google.com/presentation/d/1cDonL61pHiuUrU8fz3REgoIoUOWszs03UYn5mlqV41A/edit)](https://docs.google.com/presentation/d/1SqgwirUYRVrINoIISpwbw5F_c36T5BGmVnEWv5necPE/edit?slide=id.p1#slide=id.p1) | Meeskonna ühine esitlus |
 | [week2_sales_cleaning.sql](https://github.com/vvaiko1/UrbanStyle-ladu/blob/main/week-2/week2_sales_cleaning.sql) | Roll A – müügiandmete puhastamine (Sten Tomingas) | | Roll A – müügiandmete puhastamine (Sten Tomingas) |
 | [week2_customers_cleaning.sql](https://github.com/vvaiko1/UrbanStyle-ladu/blob/main/week-2/week2_customers_cleaning.sql) | Roll B – kliendiandmete puhastamine (Vaiko Vainola) |
-| [[sales_dimensions_explorer.sql](sales_dimensions_explorer.sql)](https://github.com/gertrudkaupmees-lab/DACA-portfolio/blob/main/week-2/GT%20week%202%20products%20table) | Roll C – tooteandmete analüüs (Gertrud Kaupmees) |
+| [sales_dimensions_explorer.sql](sales_dimensions_explorer.sql)](https://github.com/gertrudkaupmees-lab/DACA-portfolio/blob/main/week-2/GT%20week%202%20products%20table) | Roll C – tooteandmete analüüs (Gertrud Kaupmees) |
 
 Iga liikme individuaalsed päringud on tema isiklikus portfoolios.
 
