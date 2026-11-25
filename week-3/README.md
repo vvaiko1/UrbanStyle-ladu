@@ -61,6 +61,7 @@ Andmed on eri tabelites (`sales`, `customers`, `products`, `inventory`). Iga mee
 
 | Fail | Sisu |
 |------|------|
+| [Google Slides](https://docs.google.com/presentation/d/1tIFRLYS09QJf8webDzAYrYFJGvsdCiUlIwstnK6WABY/edit) | Meeskonna ühine slaid |
 | [week3_roll_b_kadunud_kliendid.sql](week3_roll_b_kadunud_kliendid.sql) | Roll B – kadunud kliendid (Sten Tomingas) |
 | [week3_roll_c_tooted_inventuur.sql](week3_roll_c_tooted_inventuur.sql) | Roll C – tooted + inventuur (Vaiko Vainola) |
 | *week3_roll_a_myyk_kliendid.sql* | Roll A – TOP kliendid (Gertrud Kaupmees) – lisamata |
