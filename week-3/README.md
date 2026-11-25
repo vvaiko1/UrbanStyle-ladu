@@ -13,22 +13,20 @@ Andmed on eri tabelites (`sales`, `customers`, `products`, `inventory`). Iga mee
 | Roll | Ülesanne | JOIN | Liige |
 |------|----------|------|-------|
 | A | Müük + kliendid: TOP kliendid | INNER JOIN | Gertrud Kaupmees |
-| B | Kliendid ilma ostudeta | LEFT JOIN + IS NULL | [nimi] |
+| B | Kliendid ilma ostudeta | LEFT JOIN + IS NULL | Sten Tomingas |
 | C | Tooted + inventuur: müümata tooted ja laoseis | LEFT JOIN + IS NULL | Vaiko Vainola |
 
 ## Peamised leiud
 
 ### Roll A – TOP kliendid
-- **Parimad kliendid kogumüügi järgi on Tiina Pärn Tartust (27 668 €, 73 ostu), Priit Rand Pärnust (26 286 €) ja Kevin Org Tallinnast (23 467 €), kusjuures TOP 10 klientidest 4 on Pärnust ja 3 Tallinnast.
-- **Kõige rohkem müüki tuleb Tallinnast (1,01 mln, 3601 ostu), millele järgnevad Tartu (523 tuhat) ja Pärnu (374 tuhat); need kolm linna annavad kokku suurema osa kogumüügist.
-- **Kogumüügi poolest on kõige tulusam tase silver (593 tuhat), seejärel gold (534 tuhat) ja bronze (424 tuhat), kuid kliendi kohta on tugevaim gold (~1087 €, silveril ~1060 € ja bronzel ~890 €).
-- **Märkimisväärne on, et 1024 kliendil (suurim grupp) loyalty_tier puudub, ja nad toovad 1,07 mln müüki, mistõttu tasuks nende tase üle vaadata või lojaalsusprogrammi kaasata. Soovitan koondada lojaalsusprogrammi tähelepanu goldile ja silverile ning täita puuduvad tasemed andmetes.
-- **Lisaanalüüs - Tuvastatud klientidest (2551 ostnud klienti) kulutab üle keskmise 900 ehk ligikaudu 35,3%; keskmine müük kliendi kohta on 1028,12 €. Müügid ilma kliendikirjeta (286 446 €) moodustavad 9,8% kogumüügist (2 909 178 €) ja on keskmise arvutusest välja jäetud, et see ei moonduks. Soovitan puuduvad customer_id väärtused müügitabelis üle vaadata, sest ligi kümnendikku käibest ei saa praegu kliendi tasemel analüüsida.
+- **Parimad kliendid** kogumüügi järgi on Tiina Pärn Tartust (27 668 €, 73 ostu), Priit Rand Pärnust (26 286 €) ja Kevin Org Tallinnast (23 467 €); TOP 10 klientidest 4 on Pärnust ja 3 Tallinnast.
+- **Kõige rohkem müüki tuleb Tallinnast** (1,01 mln €, 3 601 ostu), järgnevad Tartu (523 tuhat €) ja Pärnu (374 tuhat €); need kolm linna annavad suurema osa kogumüügist.
+- **Kogumüügilt on kõige tulusam tase silver** (593 tuhat €), seejärel gold (534 tuhat €) ja bronze (424 tuhat €), kuid kliendi kohta on tugevaim gold (~1 087 €; silver ~1 060 €, bronze ~890 €).
+- **1 024 ostnud kliendil puudub loyalty_tier** (suurim grupp) ja nad toovad 1,07 mln € müüki – tasuks nende tase üle vaadata või nad lojaalsusprogrammi kaasata.
+- **Lisaanalüüs:** 2 551 ostnud kliendist kulutab üle keskmise 900 (~35,3%); keskmine müük kliendi kohta on 1 028,12 €. Müügid ilma kliendikirjeta (286 446 €) moodustavad 9,8% kogumüügist (2 909 178 €) ja on keskmisest välja jäetud.
 
-### Roll B – Kadunud kliendid 
-- Kokku 3 150 kadunud klienti
-- 599 klienti pole kunagi ostnud.
-- 2 551 klienti on ostnud.
+### Roll B – Kadunud kliendid
+- Kokku 3 150 klienti: **599 pole kunagi ostnud**, 2 551 on ostnud.
 - Kõige rohkem kadunud kliente on Tallinnas (231), Tartus (133) ja Pärnus (70).
 - Kõige uuem registreerimiskuupäev: 27.02.2025.
 - **Järeldus:** 599 kliendi andmed on olemas, kuid nad pole veel ostu sooritanud. Kui turundusnõusolek on olemas, võiks alustada neile esimese ostu sooduspakkumise saatmisega.
@@ -37,33 +35,34 @@ Andmed on eri tabelites (`sales`, `customers`, `products`, `inventory`). Iga mee
 - **12 toodet pole kunagi müüdud** – kõik on nädal 1 leitud duplikaatkirjed (ID 1351–1362), mitte ebapopulaarsed tooted; neil puudub ka laoseis.
 - **Müümata tooteid laos ei ole** – kinni olevat raha ei ole.
 - **231 toote-asukoha real on laoseis tellimispunktis või alla selle**, neist 7 on täiesti otsas.
+- **Laoandmetes on vigu:** 10 real negatiivne laoseis (kuni −46), 40 real ebareaalselt suur (kuni 9 985).
 - **Bestseller:** Õhuline sünteetiline sporditossud – 35 müüki, 27 347,04 €.
 - **Kõige edukam kategooria:** jalanõud (774 035 €); väikseim müügitulu: lasteriided (305 844 €).
 
 ## Suurim üllatus
 
-[1–2 lauset – meeskond täidab]
+„Puuduvad“ seosed ei olnud alati päris puudujäägid: kõik 12 müümata toodet ja osa kadunud kliente on tegelikult duplikaatkirjed. Lisaks leidus laos negatiivseid laoseise, mis on füüsiliselt võimatud.
 
 ## Soovitus Annale ja Toomasele
 
-[1–2 lauset: prioriteedid ja järgmised sammud]
+**Annale:** saata esimese ostu pakkumine 599 ostuta kliendile (alustades Tallinnast) ja keskenduda lojaalsusprogrammis gold- ja silver-klientidele. **Toomasele:** eemaldada duplikaattooted, kontrollida üle vigased laoseisud ning täita puuduvad loyalty_tier ja customer_id väärtused.
 
 ## Puuduvad andmed
 
-[1–2 lauset: mida me ei teadnud?]
+1 024 ostnud kliendil puudub lojaalsustase ja 9,8% käibest (286 446 €) on müükidel ilma kliendi ID-ta, mistõttu neid ei saa kliendi tasemel analüüsida. Laoseisu andmetes on negatiivseid ja ebareaalselt suuri väärtusi.
 
 ## Demo kokkuvõte
 
-- **Peamine järeldus:** [1 lause]
-- **Mis otsus muutuks:** [1 lause]
-- **Mis üllatas:** [1 lause]
+- **Peamine järeldus:** JOIN-idega saime Annale nimed, linnad ja tooted – parimad kliendid, 599 ostuta klienti ja edukaimad kategooriad.
+- **Mis otsus muutuks:** Anna saab teha suunatud kampaaniad (esimese ostu pakkumine, gold/silver lojaalsus), mitte ühe üldise kampaania.
+- **Mis üllatas:** müümata tooted osutusid duplikaatideks ja laos leidus negatiivseid laoseise.
 
 ## Failid
 
 | Fail | Sisu |
 |------|------|
+| [week3_roll_b_kadunud_kliendid.sql](week3_roll_b_kadunud_kliendid.sql) | Roll B – kadunud kliendid (Sten Tomingas) |
 | [week3_roll_c_tooted_inventuur.sql](week3_roll_c_tooted_inventuur.sql) | Roll C – tooted + inventuur (Vaiko Vainola) |
-| [nimi].sql | Roll A – TOP kliendid ([nimi]) |
-| [nimi].sql | Roll B – kadunud kliendid ([nimi]) |
+| *week3_roll_a_myyk_kliendid.sql* | Roll A – TOP kliendid (Gertrud Kaupmees) – lisamata |
 
 Iga liikme individuaalsed päringud on tema isiklikus portfoolios.
