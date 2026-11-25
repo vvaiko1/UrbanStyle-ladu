@@ -99,8 +99,13 @@ SELECT
 FROM products p
 LEFT JOIN inventory i ON p.product_id = i.product_id
 ORDER BY i.quantity_available ASC;
--- Tulemus: 1412 rida; 231 TELLI JUURDE (neist 7 laoseisuga 0),
--- ülejäänud OK
+-- Tulemus: 1412 rida (1400 laorida + 12 laoseisuta toodet)
+--   - 231 TELLI JUURDE, neist 10 NEGATIIVSE laoseisuga (-46 ... -7)
+--     ja 7 laoseisuga 0
+--   - 40 rida ebareaalselt suure laoseisuga (üle 500, max 9985);
+--     tavaline laoseis on poes kuni 150, laos kuni ~500
+--   - 12 laoseisuta toodet (ID 1351-1362) on nimekirja lõpus
+--     staatusega 'OK', sest NULL <= reorder_point ei ole tõene
 
 
 -- =====================================================
@@ -143,11 +148,14 @@ WHERE s.sale_id IS NULL;
 -- 2. Juurde tellimine: 231 toote-asukoha real on laoseis tellimispunktis
 --    või alla selle, neist 7 on täiesti otsas - need tuleks kohe
 --    juurde tellida.
--- 3. Kategooriad: kõige edukam on jalanõud (774 035 €), kõige väiksema
+-- 3. Laoandmete kvaliteet: 10 real on laoseis negatiivne (võimatu) ja
+--    40 real ebareaalselt suur (kuni 9985) - enne tellimisotsuseid
+--    tuleks need read inventuuriga üle kontrollida.
+-- 4. Kategooriad: kõige edukam on jalanõud (774 035 €), kõige väiksema
 --    müügituluga lasteriided (305 844 €), kuigi müükide arv on teiste
 --    kategooriatega sarnane - lasteriiete hinnad on madalamad.
--- 4. Bestseller: Õhuline sünteetiline sporditossud (27 347 €) - see on
+-- 5. Bestseller: Õhuline sünteetiline sporditossud (27 347 €) - see on
 --    kataloogi kalleim toode (434,08 €), seega tasub ka kallis toode
 --    hoida hästi laos.
--- 5. Kinni olevat raha müümata toodetes ei ole (edasijõudnute päring: 0).
+-- 6. Kinni olevat raha müümata toodetes ei ole (edasijõudnute päring: 0).
 -- =====================================================
