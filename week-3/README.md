@@ -12,7 +12,7 @@ Andmed on eri tabelites (`sales`, `customers`, `products`, `inventory`). Iga mee
 
 | Roll | Ülesanne | JOIN | Liige |
 |------|----------|------|-------|
-| A | Müük + kliendid: TOP kliendid | INNER JOIN | [nimi] |
+| A | Müük + kliendid: TOP kliendid | INNER JOIN | Gertrud Kaupmees |
 | B | Kliendid ilma ostudeta | LEFT JOIN + IS NULL | [nimi] |
 | C | Tooted + inventuur: müümata tooted ja laoseis | LEFT JOIN + IS NULL | Vaiko Vainola |
 
