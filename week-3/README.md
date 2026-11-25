@@ -25,8 +25,13 @@ Andmed on eri tabelites (`sales`, `customers`, `products`, `inventory`). Iga mee
 - **Märkimisväärne on, et 1024 kliendil (suurim grupp) loyalty_tier puudub, ja nad toovad 1,07 mln müüki, mistõttu tasuks nende tase üle vaadata või lojaalsusprogrammi kaasata. Soovitan koondada lojaalsusprogrammi tähelepanu goldile ja silverile ning täita puuduvad tasemed andmetes.
 - **Lisaanalüüs - Tuvastatud klientidest (2551 ostnud klienti) kulutab üle keskmise 900 ehk ligikaudu 35,3%; keskmine müük kliendi kohta on 1028,12 €. Müügid ilma kliendikirjeta (286 446 €) moodustavad 9,8% kogumüügist (2 909 178 €) ja on keskmise arvutusest välja jäetud, et see ei moonduks. Soovitan puuduvad customer_id väärtused müügitabelis üle vaadata, sest ligi kümnendikku käibest ei saa praegu kliendi tasemel analüüsida.
 
-### Roll B – Kadunud kliendid
-[3–5 lauset: mitu klienti pole kunagi ostnud, millistest linnadest, millal registreerusid, kuidas neid tagasi võita]
+### Roll B – Kadunud kliendid 
+- Kokku 3 150 kadunud klienti
+- 599 klienti pole kunagi ostnud.
+- 2 551 klienti on ostnud.
+- Kõige rohkem kadunud kliente on Tallinnas (231), Tartus (133) ja Pärnus (70).
+- Kõige uuem registreerimiskuupäev: 27.02.2025.
+- **Järeldus:** 599 kliendi andmed on olemas, kuid nad pole veel ostu sooritanud. Kui turundusnõusolek on olemas, võiks alustada neile esimese ostu sooduspakkumise saatmisega.
 
 ### Roll C – Tooted + inventuur
 - **12 toodet pole kunagi müüdud** – kõik on nädal 1 leitud duplikaatkirjed (ID 1351–1362), mitte ebapopulaarsed tooted; neil puudub ka laoseis.
